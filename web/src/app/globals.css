@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #f9fafb;
+  --color-foreground: #111827;
+  --color-primary: #3b82f6;
+  --color-accent: #a78bfa;
+  --color-card: #ffffff;
+  --color-muted: #e5e7eb;
+  --color-border: #d1d5db;
+  --radius: 0.75rem;
+  --shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+html, body {
+  height: 100%;
+  background: linear-gradient(135deg, var(--color-background), #e0f7fa);
+  color: var(--color-foreground);
+  font-family: Inter, system-ui, sans-serif;
+}
